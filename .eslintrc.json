@@ -1,13 +1,17 @@
 {
   "rules": {
+    "max-depth": ["error", 3],
+    "max-lines-per-function": ["error", { "max": 10 }],
     "import/extensions": ["error", { "js": "ignorePackages" }],
     "import/order": [
       "error",
       {
-      "alphabetize": {
-      "order": "asc",
-      "caseInsensitive": true
-      }}]
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
   },
   "env": {
     "es6": true,
